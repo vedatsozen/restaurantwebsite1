@@ -326,7 +326,7 @@ img.drinks {
     }
     
     #meals > div {
-        height: 100%;
+        height:fit-content;
         width:90vw;
         background-color: maroon;
         color: white;
@@ -337,6 +337,8 @@ img.drinks {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        padding:5px;
+        box-sizing:border-box;
         
     }
     
@@ -363,7 +365,7 @@ img.drinks {
     }
     
     #drinks > div {
-        height: 100%;
+        height:fit-content;
         width:90vw;
         background-color: maroon;
         color: white;
@@ -374,6 +376,8 @@ img.drinks {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        padding:5px;
+        box-sizing:border-box;
     }
     
     #drinks > div:hover {
