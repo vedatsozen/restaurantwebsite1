@@ -118,6 +118,11 @@ div {
     color: white;
     border: 3px solid white;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 #meals > div:hover {
@@ -127,7 +132,9 @@ div {
     transform: scale(1.1);
     background-color: white;
     color: maroon;
+    
 }
+
 
 #drinks {
     height: 300px;
@@ -146,6 +153,10 @@ div {
     color: white;
     border: 3px solid white;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 #drinks > div:hover {
@@ -175,6 +186,15 @@ p {
 
 }
 
+img.meals {
+    height: 100%;
+    width: 100%;
+}
+
+img.drinks {
+    height: 100%;
+    width: 100%;
+}
 }
 
 /* MOBILE VERSION */
