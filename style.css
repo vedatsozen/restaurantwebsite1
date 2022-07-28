@@ -212,6 +212,7 @@ img.drinks {
         background-image:url("arkaplan.jpg");
         background-size:cover;
         background-repeat: no-repeat;
+        min-height:100vh;
     
     }
     
