@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+<h1 class="logo">PLANET RESTAURANT</h1>
+<h2 id="h2id">We are open everyday from 12 A.M to 6 P.M.</h2>
+<button type="button" class="home" onclick="homepage()">Home</button>
+<button type="button" id="productsbutton" onclick="foods()">Foods</button>  
+<button type="button" onclick="drinks()">Drinks</button>  
+<button type="button" onclick="contactme()">Contact</button>
+
+<h1 id="h1id">We cook delicious foods for you.</h1>
+
+
+<div id="meals">
+    <div id="pizza">
+        <h1>Pizza</h1>
+        <h1>20$</h1>
+    </div>
+    <div id="burger">
+        <h1>Burger</h1>
+        <h1>15$</h1>
+    </div>
+    <div id="spaghetti">
+        <h1>Spaghetti</h1>
+        <h1>10$</h1>
+    </div>
+    
+</div>
+
+<div id="drinks">
+    <div id="tea">
+        <h1>Tea</h1>
+        <h1>5$</h1>
+    </div>
+    <div id="coffee">
+        <h1>Coffee</h1>
+        <h1>5$</h1>
+    </div>
+    <div id="coke">
+        <h1>Coke</h1>
+        <h1>7$</h1>
+    </div>
+    <div id="fruitjuice">
+        <h1>Fruit Juice</h1>
+        <h1>9$</h1>
+    </div>
+    
+</div>
+
+<div id="contact">
+
+    <p>Address : San Francisco Planet Street no 2022 / United States Of America</p>
+    <p>Reservation Tel Number : 123 456 789</p>
+    
+</div>
+
+</div>
+
+<script>
+
+    function homepage() {
+        window.location.reload() ;
+    }
+
+    function foods() {
+
+        document.getElementById("h1id").style.display = "none" ;
+        document.getElementById("drinks").style.display = "none" ;
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("meals").style.display = "flex";
+    }
+
+    function drinks() {
+
+document.getElementById("h1id").style.display = "none" ;
+document.getElementById("meals").style.display = "none" ;
+document.getElementById("contact").style.display = "none";
+document.getElementById("drinks").style.display = "flex";
+}
+
+function contactme() {
+
+document.getElementById("h1id").style.display = "none" ;
+document.getElementById("meals").style.display = "none" ;
+document.getElementById("drinks").style.display = "none";
+document.getElementById("contact").style.display = "block";
+}
+
+
+
+  
+</script>
+</body>
+</html>

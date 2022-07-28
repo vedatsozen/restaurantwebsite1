@@ -1,0 +1,379 @@
+@media only screen and (min-width:480px) {
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image:url("arkaplan.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+h1.logo {
+    margin: auto;
+    color: maroon;
+    font-size:40px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-top: 5px;
+    display: block;
+    width: fit-content;
+ 
+
+ 
+}
+
+button {
+    background-color:maroon;
+    color:white;
+    border: 1px solid maroon;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 3px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+button:hover {
+    margin: auto;
+    transition: ease 500ms;
+    background-color:white;
+    color: maroon;
+    border: 1px solid maroon;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+div {
+    margin: auto;
+    
+}
+
+#h1id {
+    font-size: 60px;
+    color: maroon;
+    background-color: white;
+    margin: auto;
+    margin-top:150px;
+    height:100px;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    visibility: visible;
+    
+}
+
+#h2id {
+    margin: auto;
+    position: absolute;
+    font-size:15px;
+    color: maroon;
+    background-color: white;
+    bottom:10px;
+    left: 50%;
+    transform: translate(-50%);
+    height:50px;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    visibility: visible;
+    
+}
+
+
+#meals {
+    height: 300px;
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    margin-top: 100px;
+  
+}
+
+#meals > div {
+    height: 100%;
+    width: 30%;
+    background-color: maroon;
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#meals > div:hover {
+    cursor: pointer;
+    transform: rotate(15);
+    transition: 300ms ease-in-out;
+    transform: scale(1.1);
+    background-color: white;
+    color: maroon;
+}
+
+#drinks {
+    height: 300px;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    margin-top:100px;
+  
+}
+
+#drinks > div {
+    height: 100%;
+    width: 22%;
+    background-color: maroon;
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#drinks > div:hover {
+    cursor: pointer;
+    transform: rotate(15);
+    transition: 300ms ease-in-out;
+    transform: scale(1.1);
+    background-color: white;
+    color: maroon;
+}
+
+#contact {
+    height: fit-content;
+    width:fit-content;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    margin-top:150px;
+    background-color: maroon;
+    padding: 15px;
+    border: 3px solid white;
+  
+}
+
+p {
+    color: white;
+
+}
+
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width:480px) {
+
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-image:url("arkaplan.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    h1.logo {
+        margin: auto;
+        color: maroon;
+        font-weight: bold;
+        letter-spacing: 15px;
+        margin-top: 5px;
+        display: block;
+        width:fit-content;
+        font-size:13px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    
+     
+    }
+    
+    button {
+        background-color:maroon;
+        color:white;
+        border: 1px solid maroon;
+        font-size: 15px;
+        padding: 5px;
+        letter-spacing: 3px;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    
+    }
+
+    button.home {
+
+        margin-top: 20px;
+
+    }
+
+    button.home:hover {
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        margin: auto;
+        transition: ease 500ms;
+        background-color:white;
+        color: maroon;
+        border: 1px solid maroon;
+        border-radius: 3px;
+        margin-top: 5px;
+    }
+    
+    button:active {
+        transform: scale(0.90);
+    }
+    
+    div {
+        margin: auto;
+        
+    }
+    
+    #h1id {
+        font-size: 30px;
+        color: maroon;
+        background-color: white;
+        margin: auto;
+        margin-top:40px;
+        height:fit-content;
+        width:fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        visibility: visible;
+        
+    }
+    
+    #h2id {
+        margin: auto;
+        margin-top: 5px;
+        text-align: center;
+        font-size:12px;
+        color: maroon;
+        background-color: white;
+        height:fit-content;
+        width:fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        visibility: visible;
+        
+    }
+    
+    
+    #meals {
+        height: 300px;
+        width:90vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        display: none;
+        margin-top:10px;
+        box-sizing: border-box;
+      
+    }
+    
+    #meals > div {
+        height: 100%;
+        width:90vw;
+        background-color: maroon;
+        color: white;
+        border: 3px solid white;
+        border-radius: 3px;
+        margin-top: 10px;
+        
+    }
+    
+    #meals > div:hover {
+        cursor: pointer;
+        transform: rotate(15);
+        transition: 200ms ease-in-out;
+        transform: scale(1.05);
+        background-color: white;
+        color: maroon;
+        border: 3px solid maroon;
+    }
+    
+    #drinks {
+        height: 300px;
+        width:90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+        margin-top:10px;
+        box-sizing: border-box;
+      
+    }
+    
+    #drinks > div {
+        height: 100%;
+        width:90vw;
+        background-color: maroon;
+        color: white;
+        border: 3px solid white;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+    
+    #drinks > div:hover {
+        cursor: pointer;
+        transform: rotate(15);
+        transition: 200ms ease-in-out;
+        transform: scale(1.05);
+        background-color: white;
+        color: maroon;
+        border: 3px solid maroon;
+    }
+    
+    #contact {
+        height: fit-content;
+        width:fit-content;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+        margin-top:10px;
+        background-color: maroon;
+        padding: 15px;
+        border: 3px solid white;
+      
+    }
+    
+    p {
+        color: white;
+    
+    }
+    
+    }
