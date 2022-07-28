@@ -333,6 +333,10 @@ img.drinks {
         border: 3px solid white;
         border-radius: 3px;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
         
     }
     
@@ -366,6 +370,10 @@ img.drinks {
         border: 3px solid white;
         border-radius: 3px;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
     }
     
     #drinks > div:hover {
